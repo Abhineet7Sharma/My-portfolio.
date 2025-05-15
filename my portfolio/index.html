@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jay's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Portfolio<span>.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+       
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="home" class="section" data-aos="fade-up">
+    <div class="content">
+      <h1>Hi, I'm Abhineet! 👋</h1>
+      <p>Creative Web Developer & Designer</p>
+      
+      <!-- Circular profile picture added -->
+      <img src="photo.jpg" alt="Jay's Photo" class="profile-pic" />
+    </div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who builds stylish websites and delivers modern user experiences.</p>
+    <a href="Resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section id="services" class="section" data-aos="fade-up">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">Front end developer </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <video controls width="100%" style="border-radius: 1rem;">
+          <source src="video.mp4" type="video/mp4">
+          
+        </video>
+        <p>A fully responsive and elegant Portfolio website built using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Abhineet . All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
